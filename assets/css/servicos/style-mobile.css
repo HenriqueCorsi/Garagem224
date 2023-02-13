@@ -1,0 +1,76 @@
+@media screen and (max-width:399px) {
+    .servicos-container{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .servicos h1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+        font-size: 25px;
+    }
+
+    .servicos-card{
+        width: 90%;
+        height: 500px;
+        margin: 0rem auto;
+    }
+
+    .txt-servicos h2{
+        font-size: 25px;
+    }
+
+    .txt-servicos h3{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .button-box button{
+        width: 70%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:400px) and (max-width: 899px) {
+    .servicos-container{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .servicos h1{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+        font-size: 25px;
+    }
+
+    .servicos-card{
+        width: 90%;
+        margin: 0rem auto;
+    }
+
+    .txt-servicos h2{
+        font-size: 25px;
+    }
+
+    .txt-servicos h3{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .button-box button{
+        width: 70%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1250px) {
+    .txt-servicos h3{
+        width: 100%;
+    }
+
+    .button-box button{
+        width: 50%;
+    }
+}
