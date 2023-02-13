@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px) {   
+   .formulario form{
+    width: 70%;
+    margin: auto;
+   }
+
+   .formulario form h2{
+    font-size: 25px;
+   }
+
+   .formulario form input{
+    font-size: 20px;
+   }
+
+   .formulario button{
+    width: 80%;
+    font-size: 20px;
+   }
+    
+}
