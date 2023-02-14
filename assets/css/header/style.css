@@ -50,7 +50,7 @@ header {
 .nav-link {
     text-decoration: none;
     transition: 0.3s;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: tommy;
     color: #fff;
 }
@@ -68,6 +68,10 @@ header {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
+}
+
+.icon-link{
+    width: 100%;
 }
 
 .mobile-menu-icon {
