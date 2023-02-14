@@ -27,8 +27,13 @@
     <link rel="stylesheet" href="./assets/css/formulario/style.css">
     <link rel="stylesheet" href="./assets/css/formulario/style.-mobile.css">
 
+    <!--CSS Footer-->
+    <link rel="stylesheet" href="./assets/css/footer/style.css">
+    <link rel="stylesheet" href="./assets/css/footer/style.mobile.css">
+
 </head>
 <body>
+     <!--Inicio Header-->
     <header>
         <nav class="nav-bar">
             <div class="logo">
@@ -58,12 +63,10 @@
                 <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
             </ul>
-
-            <div class="login-button">
-                <button><a href="#">Instagram</a></button>
-            </div>
         </div>
     </header>
+    <!--Fim Header-->
+    <!--Inicio Main-->
     <main>
         <!--Inicio Banner-->
         <section class="banner">
@@ -134,13 +137,34 @@
                 <h2>Faça uma cotação conosco</h2>
                 <div><input type="text" id="nome" placeholder="Nome Completo" required></div>
                 <div><input type="email" id="email" placeholder="Email" required></div>
-                <div><input type="tel" id="telefone" placeholder="Telefone" required></div>
+                <div><input type="number" id="telefone" placeholder="Telefone" required></div>
                 <div><input type="text" id="veiculo" placeholder="Veículo" required></div>
                 <div><button>Enviar</button></div>
             </form>
         </section>
         <!--Fim Formulario-->
     </main>
+    <!--Fim Main-->
+    <!--Inicio Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-link">
+                <h3>Garagem 224</h3>
+                <div class="icons-link-container">
+                    <a href="#"><img class="icon-links" src="./assets/img/icon-whats-large.png" alt=""></a>
+                    <a href="#"><img class="icon-links" src="./assets/img/icon-insta-large.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-contato">
+                <h3>Contato</h3>
+                <p>Fone: xx - xxxx-xxxx</p>
+                <p>Whatsapp: xx - xxxx-xxxx</p>
+                <p>Emai: xxxxxxxx@xxxxx.xxx</p>
+            </div>
+        </div>
+        <h3 class="subtitle-footer">© Garagem 224</h3>
+    </footer>
+    <!--Fim Footer-->
 
     <script src="./assets/js/header.js"></script>
 </body>

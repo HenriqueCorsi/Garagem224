@@ -1,0 +1,15 @@
+@media screen and (max-width: 1100px) {
+    .footer{
+        padding: 0px;
+    }
+
+    .footer-container{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .footer-contato, .footer-link{
+        margin: auto;
+        width: 90%;
+    }
+}
