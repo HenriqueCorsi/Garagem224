@@ -10,7 +10,7 @@ function menuShow() {
     }
 }
 
-
+// Oculta o Botão Scroll
 function ocultarBtnTop(){
     const btn = document.querySelector('.btn-top');
 
@@ -31,5 +31,7 @@ function btnTop(){
 
     document.addEventListener('scroll', ocultarBtnTop);
 }
+
+
 
 
