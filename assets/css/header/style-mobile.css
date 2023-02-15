@@ -1,6 +1,6 @@
-@media screen and (max-width: 1200px) {
-    .logo h1 {
-        font-size: 1.5rem;  
+@media screen and (max-width: 499px) {
+    .logo h1 img {
+        width: 70%;
     }
     .nav-bar {
         padding: 1.5rem 4rem;
@@ -40,3 +40,66 @@
         display: block;
     }
 }
+
+@media (min-width: 500px) and (max-width: 1200px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1700px) {
+    .nav-bar {
+        width: 80%;
+        padding: 2rem;
+    }
+    .logo h1 img {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 1701px) and (max-width: 3500px) {
+    .nav-bar {
+        width: 40%;
+        padding: 2rem;
+    }
+    .logo h1 img {
+        width: 50%;
+    }
+}
+
+

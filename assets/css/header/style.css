@@ -9,8 +9,11 @@ header {
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
-    padding: 3rem 6rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
 }
 
 .logo {
@@ -18,10 +21,8 @@ header {
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 2rem;
-    font-family: tommy;
-    color: #fff;
+.logo h1 img {
+    width: 50%;
 }
 
 .nav-list {
@@ -81,3 +82,4 @@ header {
 .mobile-menu {
     display: none;
 }
+
