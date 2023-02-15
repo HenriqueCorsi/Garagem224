@@ -32,6 +32,18 @@ function btnTop(){
     document.addEventListener('scroll', ocultarBtnTop);
 }
 
+//Menu Header Páginas secundárias
+function menuShowSecond() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src = "../img/close_white_36dp.svg";
+    } else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon').src = "../img/close_white_36dp.svg";
+    }
+}
+
 
 
 
