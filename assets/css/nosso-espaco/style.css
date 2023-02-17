@@ -20,8 +20,12 @@
     font-size: 35px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .apresentacao{
         width: 90%;
+    }
+
+    .nosso-espaco h1{
+        font-size: 25px;
     }
 }
