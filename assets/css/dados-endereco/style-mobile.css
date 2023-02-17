@@ -1,0 +1,76 @@
+@media screen and (max-width: 749px) {
+    .contato{
+        text-align: center;
+    }
+    
+    .contato-container{
+        display: inline-block;
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    .dados-endereco{
+        width: 90%;
+    }
+
+    .dados-endereco h2{
+        font-size: 20px;
+    }
+
+    .dados-endereco p{
+        font-size: 16px;
+    }
+
+    .formulario-contato{
+        width: 85%;
+    }
+
+    .formulario-contato form{
+        padding: 2.5rem 0;
+        
+    }
+
+    .formulario-contato form h2{
+        font-size: 20px;
+    }
+
+    .formulario-contato form input{
+        font-size: 16px;
+    }
+
+    .formulario-contato form button{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1430px) {
+    .contato{
+        text-align: center;
+    }
+    
+    .contato-container{
+        display: inline-block;
+        width: 90%;
+    }
+    
+    .dados-endereco{
+        width: 90%;
+    }
+
+    .formulario-contato{
+        width: 80%;
+    }
+
+    .formulario-contato form{
+        padding: 2.5rem 0;
+        
+    }
+
+    .formulario-contato form h2{
+        font-size: 25px;
+    }
+
+    .formulario-contato form input{
+        font-size: 20px;
+    }
+}
