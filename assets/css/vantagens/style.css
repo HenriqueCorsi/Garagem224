@@ -1,0 +1,40 @@
+@font-face {
+    font-family: tommy;
+    src: url('../../font/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf');
+}
+
+.vantagens{
+    margin: 6rem 0;
+}
+
+.vantagens h1{
+    text-align: center;
+    font-family: tommy;
+    font-size: 35px;
+}
+
+.vantagens-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem 0;
+    border: 0.5rem solid #000;
+    border-radius: 1rem;
+}
+
+.vantagens-box{
+    width: 20%;
+}
+
+.vantagens-box h2{
+    font-family: tommy;
+    font-size: 25px;
+    padding: 1rem 0;
+}
+
+.vantagens-box p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}

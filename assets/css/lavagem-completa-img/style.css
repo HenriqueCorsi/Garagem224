@@ -1,0 +1,14 @@
+.img-ilustrativa{
+    text-align: center;
+    margin: 5rem auto;
+}
+
+picture img{
+    width: 55%;
+}
+
+@media screen and (max-width:1300px) {
+    picture img{
+        width: 85%;
+    }
+}

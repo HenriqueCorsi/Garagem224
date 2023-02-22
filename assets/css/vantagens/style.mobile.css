@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px) {
+    .vantagens{
+        text-align: center;
+    }
+    
+    .vantagens-container{
+        display: inline-block;
+        width: 60%;
+    }
+
+    .vantagens-box{
+        width: 80%;
+        margin: 1rem auto;
+    }
+}
