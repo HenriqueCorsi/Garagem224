@@ -8,6 +8,11 @@ picture img{
 }
 
 @media screen and (max-width:1300px) {
+    .img-ilustrativa{
+        text-align: center;
+        margin: 5rem auto;
+    }
+
     picture img{
         width: 85%;
     }
