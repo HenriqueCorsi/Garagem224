@@ -10,7 +10,7 @@
 .vantagens h1{
     text-align: center;
     font-family: tommy;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .vantagens-container{
@@ -19,7 +19,7 @@
     width: 90%;
     margin: 2rem auto;
     padding: 2rem 0;
-    border: 0.5rem solid #000;
+    border: 0.2rem solid #000;
     border-radius: 1rem;
 }
 
@@ -36,5 +36,5 @@
 .vantagens-box p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
