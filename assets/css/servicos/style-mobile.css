@@ -95,7 +95,7 @@
     }
 
     .button-box button{
-        width: 70%;
+        width: 30%;
         font-size: 20px;
     }
 }
@@ -106,10 +106,7 @@
     }
 
     .button-box button{
-        width: 50%;
+        width: 34%;
     }
 }
 
-@media screen and (min-width:2050px) {
-    
-}

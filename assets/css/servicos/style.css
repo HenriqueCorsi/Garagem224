@@ -6,7 +6,7 @@
 .servicos h1{
     text-align: center;
     font-family: tommy;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .servicos-container{
@@ -28,7 +28,7 @@
 
 .txt-servicos h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 2rem;
     font-family: tommy;
 }
@@ -37,7 +37,7 @@
     width: 75%;
     margin: auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -49,12 +49,13 @@
 }
 
 .button-box button{
-    width: 30%;
+    width: 25%;
     padding: 0.5rem;
+    border: none;
     border-radius: 0.5rem;
     transition: 0.5s;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     font-family: tommy;
     background-color: #24252A;
     color: #fff;

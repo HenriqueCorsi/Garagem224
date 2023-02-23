@@ -1,4 +1,26 @@
-@media screen and (max-width: 1200px) {   
+@media screen and (max-width: 749px) {
+   .formulario form{
+      width: 70%;
+      margin: auto;
+     }
+  
+     .formulario form h2{
+      font-size: 20px;
+     }
+  
+     .formulario form input{
+      width: 100%;
+      padding: 0.5rem 0.2rem;
+      font-size: 16px;
+     }
+  
+     .formulario button{
+      width: 60%;
+      font-size: 20px;
+     }
+}
+
+@media (min-width: 750px) and (max-width: 1200px) {   
    .formulario form{
     width: 80%;
     margin: auto;
