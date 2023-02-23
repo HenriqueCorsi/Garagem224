@@ -12,6 +12,7 @@
         display: inline-block;
         width: 80%;
         padding: 2rem 2rem;
+        text-align: center;
     }
 
     .lista-box ul{
