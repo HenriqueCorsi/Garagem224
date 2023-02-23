@@ -6,12 +6,12 @@
 .nosso-espaco h1{
     text-align: center;
     font-family: tommy;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .apresentacao{
-    width: 50%;
-    height: 600px;
+    width: 40%;
+    height: 500px;
     margin: 2rem auto;
     margin-bottom: 15rem;
     text-align: center;

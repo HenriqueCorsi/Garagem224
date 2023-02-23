@@ -19,14 +19,14 @@
 }
 
 .dados-endereco h2{
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: #000000;
 }
 
 .dados-endereco p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
 }
@@ -48,18 +48,18 @@
 }
 
 .formulario-contato form h2{
-    font-size: 30px;
+    font-size: 25px;
     font-family: tommy;
 }
 
 .formulario-contato input{
     padding: 0.5rem;
-    width: 80%;
+    width: 90%;
     margin-top: 3rem;
     border: none;
     border-radius: 0.5rem;
     box-shadow: 0px -1px 8px black;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -75,7 +75,7 @@
     border-radius: 0.5rem;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 25px;
+    font-size: 20px;
     font-family: tommy;
     background-color: #3A393C;
     color: #fff;
