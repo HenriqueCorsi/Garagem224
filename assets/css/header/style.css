@@ -19,6 +19,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    width: 20%;
 }
 
 .logo h1 img {
@@ -51,7 +52,7 @@ header {
 .nav-link {
     text-decoration: none;
     transition: 0.3s;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: tommy;
     color: #fff;
 }
