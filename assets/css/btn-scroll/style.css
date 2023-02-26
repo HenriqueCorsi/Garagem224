@@ -7,6 +7,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 1%;
     position: fixed;
     bottom: 1rem;
     right: 2.2rem;
@@ -24,7 +25,7 @@
 
 .arrow{
     border: solid #000000;
-    border-width: 0 5px 5px 0;
+    border-width: 0 4px 4px 0;
     padding: 1rem;
     margin-top: 0.7rem;
     display: inline-block;
@@ -42,7 +43,7 @@
 
 @media (min-width: 1000px) and (max-width: 2500px) {
     .btn-top{
-        width: 5%;
+        width: 3%;
     }
 }
 
