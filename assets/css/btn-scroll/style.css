@@ -40,8 +40,9 @@
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1700px) {
+@media (min-width: 1000px) and (max-width: 2500px) {
     .btn-top{
         width: 5%;
     }
 }
+
